@@ -16,7 +16,7 @@ def home():
 @app.post("/ai-check")
 def ai_check(data: AIRequest):
 
-    api_key = os.getenv("gsk_your_actual_api_key")
+    api_key = os.getenv("GROQ_API_KEY")
 
     if not api_key:
         raise HTTPException(
