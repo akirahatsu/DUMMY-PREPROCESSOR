@@ -1,4 +1,4 @@
-
+import traceback
 import os
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
@@ -51,7 +51,10 @@ def ai_check(data: AIRequest):
             "result": response.choices[0].message.content
         }
 
-    except Exception:
+    except Exception as e:
+        print("GROQ ERROR:", type(e).__name__, str(e), flush=True)
+        traceback.print_exc()
+
         raise HTTPException(
             status_code=502,
             detail="AI service is temporarily unavailable."
