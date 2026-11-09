@@ -34,7 +34,7 @@ def ai_check(data: AIRequest):
                     "role": "user",
                     "content": f"""
                     Dataset statistics:
-                    {raw_train.describe()}
+                    {data.statistics}
 
                     Identify suspicious values.
                     Answer in one short sentence,
