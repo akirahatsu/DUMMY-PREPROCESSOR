@@ -1,4 +1,4 @@
-                      ` ╔══════════════════════════════════════════════════════════════════════╗
+                        ╔══════════════════════════════════════════════════════════════════════╗
                         ║                                                                      ║
                         ║                                                                      ║
                         ║          ██████╗ ██╗   ██╗███╗   ███╗███╗   ███╗██╗   ██╗            ║
@@ -11,11 +11,13 @@
                         ║                 D U M M Y   P R E P R O C E S S O R                  ║
                         ║                                                                      ║
                         ║                                                                      ║
-                        ╚══════════════════════════════════════════════════════════════════════╝`
+                        ╚══════════════════════════════════════════════════════════════════════╝
 
 
-
-# Overview
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-purple)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 DUMMY PREPROCESSOR is a Python data preprocessing library designed to simplify the preparation of datasets for Machine Learning and Deep Learning.
 
