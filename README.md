@@ -34,6 +34,10 @@ It provides automatic and manual tools for:
 
 The library is designed to make data preparation easier while keeping the user in control of important preprocessing decisions.
 
+
+<img src="workflow.png" width="700">
+
+
 ## Installation
 
 ```bash
