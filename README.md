@@ -438,7 +438,17 @@ preprocess.get_veiw(ai_review=True, describe=True)
 The review can help identify unusual distributions, suspicious values, and potential data-quality issues.
 
 AI review is an additional feature, not a replacement for statistical checks or user judgment.
+### AI Review & Privacy
 
+The optional `ai_review=True` feature sends dataset-related information to the DUMMY PREPROCESSOR AI service for automated analysis.
+
+Please note:
+- AI review requires an internet connection.
+- Dataset information is transmitted to an external server for processing.
+- Do not enable AI review on sensitive, confidential, or personally identifiable data unless you have reviewed the data-handling practices and have permission to share it.
+- You can disable this feature by setting `ai_review=False`.
+
+The standard preprocessing functionality does not require AI review.
 If you do not want to use the AI service:
 
 ```python
